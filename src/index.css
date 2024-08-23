@@ -1,0 +1,65 @@
+:root {
+  --bg-color: rgb(13, 7, 20);
+  --bg-form: #1d1825;
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+}
+.bg-form {
+  background-color: var(--bg-form);
+}
+
+.add-btn {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  background-color: #9e78cf;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #9e78cf 1px solid;
+}
+
+.input {
+  width: 381px;
+  height: 40px;
+  border-radius: 10px;
+  border: #9e78cf 1px solid;
+  background-color: transparent;
+  padding: 5px;
+  color: white;
+}
+
+.main-div {
+  width: 583px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: #1d1825;
+  padding: 30px;
+  border: #000000 1px solid;
+}
+
+li {
+  width: 432px;
+  background-color: #15101c;
+  color: #9e78cf;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.done {
+  color: #78cfb0;
+}
